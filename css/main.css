@@ -5,7 +5,6 @@ body {
 
 .navbar-default {
   background-image: url("../img/repeatable-bkg-light.jpg");
-  /*background-color: rgb(201, 193, 179);*/
 }
 
 .navbar-default .navbar-brand {
@@ -16,16 +15,11 @@ body {
   color: black;
 }
 
-/*.navbar-default .navbar-collapse {
-  border: none;
-}*/
-
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: #eee;
 }
 
 #header-container {
-  /*background-color: #e8e8e8;*/
   background-image: url("../img/repeatable-bkg-light.jpg");
 }
 
@@ -34,8 +28,8 @@ header {
 }
 
 header h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 header h4 {
@@ -45,4 +39,42 @@ header h4 {
 
 header img {
   margin-top: 25px;
+}
+
+.fancy-separator {
+  margin-top: 0;
+  border-bottom: solid 1px #eee;
+  margin-bottom: 1rem;
+}
+
+#footer-container {
+  margin: 50px 0 0 0;
+  background-color: #e8e8e8;
+  background-image: url("../img/repeatable-bkg-light.jpg");
+  padding-top: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+footer {
+  font-family: "Droid Serif", Georgia, serif;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+
+#social-buttons-container {
+  width: 260px;
+  margin: 0 auto;
+}
+
+#share-buttons img {
+  width: 50px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
 }

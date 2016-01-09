@@ -7,7 +7,8 @@ angular.module('evolApp', [])
     services: false,
     partners: false,
     fees: false,
-    contacts: false
+    contacts: false,
+    closed: true
   };
 
   $scope.changeStatus = function (currentKey) {
@@ -16,6 +17,8 @@ angular.module('evolApp', [])
       $scope.status[key] = false;
     });
     $scope.status[currentKey] = true;
+    $scope.status.closed = true;
+    console.log($scope.status.closed);
   };
 
 }]);
