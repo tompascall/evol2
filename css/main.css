@@ -1,0 +1,48 @@
+body {
+  padding-top: 50px;
+  background-image: url("../img/repeatable-bkg_more-lighter.jpg");
+}
+
+.navbar-default {
+  background-image: url("../img/repeatable-bkg-light.jpg");
+  /*background-color: rgb(201, 193, 179);*/
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+/*.navbar-default .navbar-collapse {
+  border: none;
+}*/
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #eee;
+}
+
+#header-container {
+  /*background-color: #e8e8e8;*/
+  background-image: url("../img/repeatable-bkg-light.jpg");
+}
+
+header {
+  text-align: center;
+}
+
+header h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+header img {
+  margin-top: 25px;
+}
