@@ -47,6 +47,14 @@ header img {
   margin-bottom: 1rem;
 }
 
+.slider-par {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  text-shadow: 1px 1px 3px #000;
+  margin-top: 3rem;
+}
+
 #footer-container {
   margin: 50px 0 0 0;
   background-color: #e8e8e8;
