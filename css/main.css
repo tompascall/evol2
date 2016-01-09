@@ -79,6 +79,10 @@ footer p {
   margin: 0 auto;
 }
 
+#share-buttons {
+  text-align: center;
+}
+
 #share-buttons img {
   width: 50px;
   padding: 5px;
