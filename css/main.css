@@ -15,8 +15,41 @@ p {
   font-size: 18px;
 }
 
+a {
+  text-decoration: none;
+  -o-transition: color .3s ease;
+  -moz-transition: color .3s ease;
+  -khtml-transition: color .3s ease;
+  -webkit-transition: color .3s ease;
+  -ms-transition: color .3s ease;
+  transition: color .3s ease;
+}
+
+a:link {
+  color: #cc7a00;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #cc7a00;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #f90;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #f90;
+    text-decoration: none;
+}
+
 .navbar-default {
-  background-image: url("../img/repeatable-bkg-light.jpg");
+  background-image: url("../img/repeatable-bkg-sublight.jpg");
 }
 
 .navbar-default .navbar-brand {
@@ -78,6 +111,32 @@ h4.fancy_separator {
 
   position: relative;
   left: -15px;
+}
+
+ul.service-list {
+  list-style: none url("../img/check_green.png");
+  padding: 0 0 0 20px;
+  font-size: 20px;
+}
+
+li.service-list {
+  padding-bottom: 10px;
+}
+
+ul.services {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+li.services {
+  padding-bottom: 5px;
+}
+
+h4.services {
+  padding: 20px 20px 20px 20px;
+  display: inline-block;
+  background-image: url("../img/repeatable-bkg-light.jpg");
+  border-radius: 5px;
 }
 
 #footer-container {

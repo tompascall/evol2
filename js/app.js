@@ -18,10 +18,25 @@ angular.module('evolApp', [])
     });
     $scope.status[currentKey] = true;
     $scope.status.closed = true;
-    console.log($scope.status.closed);
   };
 
 }])
+
+.directive('blockSeparator', function () {
+  return {
+    restrict: 'A',
+    replace: true,
+    scope: {
+      height: '@'
+    },
+    template: '<div></div>',
+    link: function (scope, element, attrs) {
+      element.css({
+        height: scope.height
+      })
+    }
+  };
+})
 
 .directive('slider', function () {
   return {
