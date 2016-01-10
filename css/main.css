@@ -3,6 +3,18 @@ body {
   background-image: url("../img/repeatable-bkg_more-lighter.jpg");
 }
 
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
 .navbar-default {
   background-image: url("../img/repeatable-bkg-light.jpg");
 }
@@ -41,10 +53,16 @@ header img {
   margin-top: 25px;
 }
 
-.fancy-separator {
-  margin-top: 0;
-  border-bottom: solid 1px #eee;
-  margin-bottom: 1rem;
+h4.fancy_separator {
+  padding: 10px 0 10px 15px;
+  margin-bottom: 20px;
+  background-image: -webkit-linear-gradient(left, white, rgba(255,0,0,0));
+  background-image: -moz-linear-gradient(left, white, rgba(255,0,0,0));
+  background-image: -o-linear-gradient(left, white, rgba(255,0,0,0));
+  background-image: linear-gradient(to right, red, rgba(255,0,0,0)) white;
+
+  position: relative;
+  left: -15px;
 }
 
 .slider-par {
@@ -53,6 +71,10 @@ header img {
   font-size: 36px;
   text-shadow: 1px 1px 3px #000;
   margin-top: 3rem;
+}
+
+.slider-separator {
+  height: 50px;
 }
 
 #footer-container {
