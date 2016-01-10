@@ -48,6 +48,11 @@ a:active {
     text-decoration: none;
 }
 
+div.row.padding-back {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .navbar-default {
   background-image: url("../img/repeatable-bkg-sublight.jpg");
 }
@@ -139,6 +144,10 @@ h4.services {
   border-radius: 5px;
 }
 
+h4.partners {
+  padding-top: 20px;
+}
+
 #footer-container {
   margin: 50px 0 0 0;
   background-color: #e8e8e8;
@@ -173,4 +182,45 @@ footer p {
   border: 0;
   box-shadow: 0;
   display: inline;
+}
+
+
+
+/* =============================== MEDIA QUERIES ======================================= */
+
+
+
+@media screen and (max-width: 767px){
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  ul.service-list {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  ul.services {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px){
+
 }
