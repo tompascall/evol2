@@ -46,23 +46,14 @@ header h2 {
 
 header h4 {
   margin-top: 0;
-  margin-bottom: 20px;
+}
+
+header h5 {
+  margin-bottom: 40px;
 }
 
 header img {
   margin-top: 25px;
-}
-
-h4.fancy_separator {
-  padding: 10px 0 10px 15px;
-  margin-bottom: 20px;
-  background-image: -webkit-linear-gradient(left, white, rgba(255,0,0,0));
-  background-image: -moz-linear-gradient(left, white, rgba(255,0,0,0));
-  background-image: -o-linear-gradient(left, white, rgba(255,0,0,0));
-  background-image: linear-gradient(to right, red, rgba(255,0,0,0)) white;
-
-  position: relative;
-  left: -15px;
 }
 
 .slider-par {
@@ -74,7 +65,19 @@ h4.fancy_separator {
 }
 
 .slider-separator {
-  height: 50px;
+  height: 40px;
+}
+
+h4.fancy_separator {
+  padding: 10px 0 10px 35px;
+  margin-bottom: 20px;
+  background-image: -webkit-linear-gradient(left, white, rgba(255,0,0,0));
+  background-image: -moz-linear-gradient(left, white, rgba(255,0,0,0));
+  background-image: -o-linear-gradient(left, white, rgba(255,0,0,0));
+  background-image: linear-gradient(to right, white, rgba(255,0,0,0));
+
+  position: relative;
+  left: -15px;
 }
 
 #footer-container {
