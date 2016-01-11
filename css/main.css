@@ -3,6 +3,18 @@ body {
   background-image: url("../img/repeatable-bkg_more-lighter.jpg");
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
 h4 {
   font-size: 22px;
 }
@@ -107,12 +119,12 @@ header img {
 }
 
 h4.fancy_separator {
-  padding: 10px 0 10px 35px;
+  padding: 20px 0 20px 35px;
   margin-bottom: 20px;
-  background-image: -webkit-linear-gradient(left, white, rgba(255,0,0,0));
-  background-image: -moz-linear-gradient(left, white, rgba(255,0,0,0));
-  background-image: -o-linear-gradient(left, white, rgba(255,0,0,0));
-  background-image: linear-gradient(to right, white, rgba(255,0,0,0));
+  background-image: -webkit-linear-gradient(left, white, rgba(255,255,255,0));
+  background-image: -moz-linear-gradient(left, white, rgba(255,255,255,0));
+  background-image: -o-linear-gradient(left, white, rgba(255,255,255,0));
+  background-image: linear-gradient(to right, white, rgba(255,255,255,0));
 
   position: relative;
   left: -15px;
@@ -138,10 +150,14 @@ li.services {
 }
 
 h4.services {
-  padding: 20px 20px 20px 20px;
-  display: inline-block;
-  background-image: url("../img/repeatable-bkg-light.jpg");
-  border-radius: 5px;
+  padding: 15px;
+  background-image: -webkit-linear-gradient(left, rgba(212,212,212,1), rgba(212,212,212,0));
+  background-image: -moz-linear-gradient(left, rgba(212,212,212,1), rgba(212,212,212,0));
+  background-image: -o-linear-gradient(left, rgba(212,212,212,1), rgba(212,212,212,0));
+  background-image: linear-gradient(to right, rgba(212,212,212,1), rgba(212,212,212,0));
+  /*display: inline-block;*/
+  /*background-image: url("../img/repeatable-bkg-light.jpg");*/
+  border-radius: 4px;
 }
 
 h4.partners {
@@ -161,8 +177,8 @@ footer {
   font-family: "Droid Serif", Georgia, serif;
 }
 
-footer p {
-    font-size: 16px;
+p.foot-note {
+    font-size: 14px;
     margin: 30px 0 0 0;
     text-align: center;
 }
@@ -192,35 +208,54 @@ footer p {
 
 @media screen and (max-width: 767px){
 
-  h3 {
-    font-size: 22px;
-  }
-
-  h4 {
+  h2 {
     font-size: 20px;
   }
 
-  h5 {
+  h3 {
     font-size: 18px;
   }
 
-  p {
+  h4 {
     font-size: 16px;
   }
 
-  ul.service-list {
-    font-size: 16px;
-  }
-
-  footer p {
+  h5 {
     font-size: 14px;
   }
 
+  p {
+    font-size: 14px;
+  }
+
+  ul.service-list {
+    font-size: 14px;
+  }
+
+  p.foot-note {
+    font-size: 12px;
+  }
+
   ul.services {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  h4.fancy_separator {
+    padding: 10px 0 10px 35px;
+  }
+
+  h4.services {
+    padding: 8px;
+    border-radius: 3px;
   }
 }
 
 @media screen and (max-width: 400px){
+  /*h4 {
+    font-size: 15px;
+  }*/
 
+  /*h4.services {
+    padding: 5px;
+  }*/
 }
