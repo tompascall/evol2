@@ -6,7 +6,6 @@ angular.module('evolApp', [])
     intro: true,
     services: false,
     partners: false,
-    fees: false,
     contacts: false,
     closed: true
   };
